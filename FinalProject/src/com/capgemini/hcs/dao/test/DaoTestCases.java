@@ -19,32 +19,32 @@ public class DaoTestCases {
 	}
 	
 	@Test //testcase1
-	public void centerNameTest() { //checking the name and the initial letter of the name (capital letter)
+	public void testcenterNameTest() { //checking the name and the initial letter of the name (capital letter)
 		Assert.assertEquals(true,hsDao.validCenterName("Kmc"));
 	}
 	
 	@Test //testcase2
-	public void centerNameSize() {//checking the size of the center name, checks if the size is not zero
+	public void testcenterNameSize() {//checking the size of the center name, checks if the size is not zero
 		Assert.assertEquals(true,hsDao.validSize("kmc"));
 	}
 	
 	@Test //testcase3
-	public void checkCenterName() {//checking the name of the center does not starts with number
+	public void testcheckCenterName() {//checking the name of the center does not starts with number
 		Assert.assertEquals(false,hsDao.checkName("3Amc"));
 	}
 	
 	@Test //testcase4
-	public void checkIdExist() {
+	public void testcheckIdExist() {
 		Assert.assertEquals(true,hsDao.checkId("2"));
 	}
 	
 	@Test //testcase5
-	public void checkCharId() {
+	public void testcheckCharId() {
 		Assert.assertEquals(false,hsDao.checkId("ch"));
 	}
 	
 	@Test //testcase6
-	public void checkNegativeId() {
+	public void testcheckNegativeId() {
 		Assert.assertEquals(false,hsDao.checkId("-4"));
 	}
 	

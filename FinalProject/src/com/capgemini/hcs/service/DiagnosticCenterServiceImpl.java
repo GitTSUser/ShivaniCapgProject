@@ -12,15 +12,16 @@ public class DiagnosticCenterServiceImpl implements IDiagnosticCenterService{
 		}
 	}
 	
+	
 	@Override
-    public boolean addCenter(){
-        boolean flag=healthSystemDao.addCenter();
+    public boolean addCenter(String cName){
+        boolean flag=healthSystemDao.addCenter(cName);
         return flag;
     }
 	
     @Override
-    public boolean removeCenter(){
-    	boolean flag=healthSystemDao.removeCenter();
+    public boolean removeCenter(String id){
+    	boolean flag=healthSystemDao.removeCenter(id);
         return flag;
 }
 }

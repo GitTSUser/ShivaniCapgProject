@@ -9,6 +9,7 @@ import org.junit.runner.notification.Failure;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.capgemini.hcs.dao.DiagnosticCenterDaoTest;
 import com.capgemini.hcs.dao.test.DaoTestCases;
 import com.capgemini.hcs.service.test.ServiceTestCases;
 
@@ -17,7 +18,8 @@ import com.capgemini.hcs.service.test.ServiceTestCases;
 @SuiteClasses({
 	ControllerTestCases.class,
 	ServiceTestCases.class,
-	DaoTestCases.class
+	DaoTestCases.class,
+	DiagnosticCenterDaoTest.class
 })
 public class TestSuites {
 	

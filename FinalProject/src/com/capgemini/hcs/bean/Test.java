@@ -15,6 +15,10 @@ public class Test {
 		this.testName = testName;
 	}
 	
+	public String getTestId() {
+		return testId;
+	}
+	
 	//Constructor of Test class
 	public Test(String testName) {
 		
@@ -22,9 +26,7 @@ public class Test {
 	this.testName=testName;
 	}
 	
-	public String getTestId() {
-		return testId;
-	}
+	
 
 	
 }

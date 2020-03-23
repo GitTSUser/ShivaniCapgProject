@@ -15,12 +15,12 @@ public class ControllerTestCases {
 	}
 	//testcases
 	@Test //testcase1
-	public void checkChoice() {
+	public void testcheckChoice() {
 		Assert.assertEquals(true,hsController.validChoice(1));
 	}
 	
 	@Test //testcase2
-	public void checkSubChoice() {
+	public void testcheckSubChoice() {
 		Assert.assertEquals(true,hsController.validSubChoice(3));
 	}
 	

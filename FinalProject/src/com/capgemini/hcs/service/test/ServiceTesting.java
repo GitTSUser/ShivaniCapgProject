@@ -17,7 +17,7 @@ public class ServiceTesting {
 	//Testing method
 	public boolean checkId(String centerId) {		
 		boolean flag=false;
-		for(DiagnosticCenter cd: healthSystemDao.centers) {
+		for(DiagnosticCenter cd: healthSystemDao.getCenters()) {
 			if(cd.getCenterId().equals(centerId)) {
 				flag=true;
 				break;

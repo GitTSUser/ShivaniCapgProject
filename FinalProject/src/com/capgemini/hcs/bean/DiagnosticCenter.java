@@ -1,11 +1,11 @@
 package com.capgemini.hcs.bean;
-import java.time.LocalDateTime;
+//import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 //myclass
 public class DiagnosticCenter {
 	
-	    static int cstart=1; 
+	    private static int cstart=1; 
 	    private String centerId;
 
 		private String centerName;

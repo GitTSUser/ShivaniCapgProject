@@ -2,8 +2,8 @@ package com.capgemini.hcs.dao;
 
 public interface IDiagnosticCenterDao {
 	
-	public boolean addCenter();
+	public boolean addCenter(String cName);
 	
-	public boolean removeCenter();
+	public boolean removeCenter(String id);
 	
 }

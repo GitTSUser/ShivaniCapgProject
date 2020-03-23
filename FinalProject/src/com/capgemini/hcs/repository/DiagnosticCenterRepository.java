@@ -10,14 +10,14 @@ public class DiagnosticCenterRepository {
 	
 	
 	static{
-		hsdao.centers.add(new DiagnosticCenter("Kmc"));
-		hsdao.centers.add(new DiagnosticCenter("Kulwanti"));
-		hsdao.centers.add(new DiagnosticCenter("Regency"));
-		hsdao.centers.add(new DiagnosticCenter("Apc Hospital"));
-		hsdao.centers.add(new DiagnosticCenter("Apollo"));
+		hsdao.getCenters().add(new DiagnosticCenter("Kmc"));
+		hsdao.getCenters().add(new DiagnosticCenter("Kulwanti"));
+		hsdao.getCenters().add(new DiagnosticCenter("Regency"));
+		hsdao.getCenters().add(new DiagnosticCenter("Apc Hospital"));
+		hsdao.getCenters().add(new DiagnosticCenter("Apollo"));
 	}
 	static public ArrayList<DiagnosticCenter> get(){
-		return hsdao.centers;
+		return hsdao.getCenters();
 	}
 	
 }
