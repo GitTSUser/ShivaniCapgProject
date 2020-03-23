@@ -7,7 +7,7 @@ import com.capgemini.hcs.dao.DiagnosticCenterDaoImpl;
 import com.capgemini.hcs.exception.CenterListException;
 import com.capgemini.hcs.exception.InvalidChoiceException;
 
-public class ChoiceController {
+public class AdminController {
 	boolean result=false;
 	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 	CenterController centerController=new CenterController();

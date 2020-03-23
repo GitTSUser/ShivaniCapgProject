@@ -9,7 +9,7 @@ public class MainController
     public static void main(String args[])
     {
     	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-    	ChoiceController choiceController=new ChoiceController(); 
+    	AdminController choiceController=new AdminController(); 
         try{
             Boolean outerExit=false;
             do{

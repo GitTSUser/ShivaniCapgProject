@@ -26,6 +26,7 @@ public class DiagnosticCenter {
 		public ArrayList<Appointment> appointmentList=new ArrayList<>();//for displaying appointment list
 		
 	    
+		
 	    public DiagnosticCenter(String centerName){
 	    	//Test t=new Test(centerName);
 	    	listOfTests.add(new Test("Blood Group"));
